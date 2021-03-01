@@ -6,7 +6,7 @@ public class HomeWork2 {
             byte numOfHours = 23, numOfMinutes = 56, numfullweeks = 52;
             int maxNumDateOfYear = 366;
             short thisYear = 2021, lastYear = 2020;
-            long newWorkers = 100000000L;
+            int newWorkers = 100000000;
             int numOfWorkers = 400000;
             float popOfNy = 19.4F;
             double accAmount = 10134.0D;
