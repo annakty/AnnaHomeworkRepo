@@ -26,13 +26,13 @@ public class HomeWork6 {
 
         if (percentage >= 91.00 && percentage <= 100) {
             System.out.println("Percentage of student  score is " + percentage + " and your Grade is A.");
-        } else if (percentage >= 81.00 && percentage >= 91) {
+        } else if (percentage >= 81.00 && percentage <= 91) {
             System.out.println("Percentage of student  score is " + percentage + " and your Grade is B.");
-        } else if (percentage >= 71.00 && percentage >= 81) {
+        } else if (percentage >= 71.00 && percentage <= 81) {
             System.out.println("Percentage of student  score is " + percentage + " and your Grade is C.");
-        } else if (percentage >= 61.00 && percentage >= 71) {
+        } else if (percentage >= 61.00 && percentage <= 71) {
             System.out.println("Percentage of student  score is " + percentage + " and your Grade is D.");
-        } else if (percentage >= 51.00 && percentage >= 71) {
+        } else if (percentage >= 51.00 && percentage <= 71) {
             System.out.println("Percentage of student  score is " + percentage + " and your Grade is E.");
         } else if (percentage >= 51.00) {
             System.out.println("Percentage of student  score is " + percentage + " and your Grade F: Less than or equal 50");
