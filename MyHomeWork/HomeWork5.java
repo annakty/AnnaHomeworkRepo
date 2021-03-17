@@ -16,14 +16,10 @@ public class HomeWork5 {
         String threeWordSentence_1 = "  hApPy nEw yeAr";
         threeWordSentence_1 = threeWordSentence_1.trim().toLowerCase();
         System.out.println("1.Three Words Sentence #1: " + threeWordSentence_1);
-
         String[] array = threeWordSentence_1.split(" ");
         String word1 = array[0].substring(0, 1).toUpperCase() + array[0].substring(1);
         String word2 = array[1].substring(0, 1).toUpperCase() + array[1].substring(1);
-        ;
         String word3 = array[2].substring(0, 1).toUpperCase() + array[2].substring(1);
-        ;
-
         System.out.println("Result: " + word1 + " " + word2 + " " + word3);
 
         /**
