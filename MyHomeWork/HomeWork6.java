@@ -21,7 +21,6 @@ public class HomeWork6 {
         double studentScore = 300;
         double totalPossibleScore = 700;
         double percentage = (studentScore / totalPossibleScore) * 100;
-        String grade = "";
         //calculate percentage
         //your percentage: xx.yy and your Grade is: z
 
