@@ -18,13 +18,15 @@ public class HomeWork6 {
          * Grade F: Less than or equal 50
          */
 
-        double studentScore = 530;
+        double studentScore = 1;
         double totalPossibleScore = 700;
         double percentage = (studentScore / totalPossibleScore) * 100;
         //calculate percentage
         //your percentage: xx.yy and your Grade is: z
 
-        if (percentage >= 90.00 && percentage <= 100) {
+        if (studentScore > 700 || studentScore <=0) {
+            System.out.println("Entered Invalid student score");
+        } else if (percentage >= 90.00 && percentage <= 100) {
             System.out.println("Percentage of student  score is " + percentage + " and your Grade is A.");
         } else if (percentage >= 80.00 && percentage <= 89.99) {
             System.out.println("Percentage of student  score is " + percentage + " and your Grade is B.");
