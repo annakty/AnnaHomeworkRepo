@@ -1,5 +1,7 @@
 package MyHomeWork;
 
+import java.util.Arrays;
+
 public class HomeWork2 {
 
         public static void main(String[] args) {
