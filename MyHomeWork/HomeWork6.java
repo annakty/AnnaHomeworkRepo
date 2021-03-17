@@ -18,23 +18,23 @@ public class HomeWork6 {
          * Grade F: Less than or equal 50
          */
 
-        double studentScore = 300;
+        double studentScore = 530;
         double totalPossibleScore = 700;
         double percentage = (studentScore / totalPossibleScore) * 100;
         //calculate percentage
         //your percentage: xx.yy and your Grade is: z
 
-        if (percentage >= 91.00 && percentage == 100) {
+        if (percentage >= 91.00 && percentage <= 100) {
             System.out.println("Percentage of student  score is " + percentage + " and your Grade is A.");
-        } else if (percentage <= 81.00 && percentage == 91) {
+        } else if (percentage >= 81.00 && percentage >= 91) {
             System.out.println("Percentage of student  score is " + percentage + " and your Grade is B.");
-        } else if (percentage <= 71.00 && percentage == 81) {
+        } else if (percentage >= 71.00 && percentage >= 81) {
             System.out.println("Percentage of student  score is " + percentage + " and your Grade is C.");
-        } else if (percentage <= 61.00 && percentage == 71) {
+        } else if (percentage >= 61.00 && percentage >= 71) {
             System.out.println("Percentage of student  score is " + percentage + " and your Grade is D.");
-        } else if (percentage <= 51.00 && percentage == 71) {
+        } else if (percentage >= 51.00 && percentage >= 71) {
             System.out.println("Percentage of student  score is " + percentage + " and your Grade is E.");
-        } else if (percentage <= 51.00) {
+        } else if (percentage >= 51.00) {
             System.out.println("Percentage of student  score is " + percentage + " and your Grade F: Less than or equal 50");
         }
 
@@ -79,14 +79,14 @@ public class HomeWork6 {
                 break;
             case 'D':
                 //System.out.println("Drive car.");
-                if (carGear=='D');
-                    else if (driveType.equalsIgnoreCase("Snow"))
-                        System.out.println("You are on Snow mode.");
-                    else if (driveType.equalsIgnoreCase("Sport"))
-                        System.out.println("You are on Sport mode.");
-                    else if (driveType.equalsIgnoreCase("Eco"));
-                        System.out.println("You are on Eco mode.");
-                        break;
+                if (carGear == 'D') ;
+                else if (driveType.equalsIgnoreCase("Snow"))
+                    System.out.println("You are on Snow mode.");
+                else if (driveType.equalsIgnoreCase("Sport"))
+                    System.out.println("You are on Sport mode.");
+                else if (driveType.equalsIgnoreCase("Eco")) ;
+                System.out.println("You are on Eco mode.");
+                break;
             case 'N':
                 System.out.println("Put car in car wash.");
                 break;
