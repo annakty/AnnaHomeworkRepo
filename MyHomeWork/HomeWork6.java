@@ -18,11 +18,12 @@ public class HomeWork6 {
          * Grade F: Less than or equal 50
          */
 
-        double studentScore = 1;
+        double studentScore = 100;
         double totalPossibleScore = 700;
         double percentage = (studentScore / totalPossibleScore) * 100;
         //calculate percentage
         //your percentage: xx.yy and your Grade is: z
+        percentage = Math.round (percentage*100) /100;
 
         if (studentScore > 700 || studentScore <=0) {
             System.out.println("Entered Invalid student score");
@@ -80,15 +81,17 @@ public class HomeWork6 {
                 System.out.println("You can park car.");
                 break;
             case 'D':
-                //System.out.println("Drive car.");
-                if (carGear == 'D') ;
-                else if (driveType.equalsIgnoreCase("Snow"))
+                System.out.println("Drive car.");
+                    switch (driveType) {
+                case "Snow":
                     System.out.println("You are on Snow mode.");
-                else if (driveType.equalsIgnoreCase("Sport"))
+                case "Sport":
                     System.out.println("You are on Sport mode.");
-                else if (driveType.equalsIgnoreCase("Eco")) ;
-                System.out.println("You are on Eco mode.");
-                break;
+                case "Eco":
+                    System.out.println("You are on Eco mode.");
+                    break;
+        }
+        break;
             case 'N':
                 System.out.println("Put car in car wash.");
                 break;
