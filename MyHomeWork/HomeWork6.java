@@ -36,7 +36,7 @@ public class HomeWork6 {
             System.out.println("Percentage of student  score is " + percentage + " and your Grade is D.");
         } else if (percentage >= 50.01 && percentage <= 59.99) {
             System.out.println("Percentage of student  score is " + percentage + " and your Grade is E.");
-        } else if (percentage >= 50.00) {
+        } else if (percentage <= 50.00) {
             System.out.println("Percentage of student  score is " + percentage + " and your Grade F: Less than or equal 50");
         }
 
