@@ -23,9 +23,9 @@ public class HomeWork6 {
         double percentage = (studentScore / totalPossibleScore) * 100;
         //calculate percentage
         //your percentage: xx.yy and your Grade is: z
-        percentage = Math.round (percentage*100) /100;
+        percentage = Math.round(percentage * 100) / 100;
 
-        if (studentScore > 700 || studentScore <=0) {
+        if (studentScore > 700 || studentScore <= 0) {
             System.out.println("Entered Invalid student score");
         } else if (percentage >= 90.00 && percentage <= 100) {
             System.out.println("Percentage of student  score is " + percentage + " and your Grade is A.");
@@ -82,16 +82,16 @@ public class HomeWork6 {
                 break;
             case 'D':
                 System.out.println("Drive car.");
-                    switch (driveType) {
-                case "Snow":
-                    System.out.println("You are on Snow mode.");
-                case "Sport":
-                    System.out.println("You are on Sport mode.");
-                case "Eco":
-                    System.out.println("You are on Eco mode.");
-                    break;
-        }
-        break;
+                switch (driveType) {
+                    case "Snow":
+                        System.out.println("You are on Snow mode.");
+                    case "Sport":
+                        System.out.println("You are on Sport mode.");
+                    case "Eco":
+                        System.out.println("You are on Eco mode.");
+                        break;
+                }
+                break;
             case 'N':
                 System.out.println("Put car in car wash.");
                 break;
