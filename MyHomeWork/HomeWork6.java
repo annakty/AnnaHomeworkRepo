@@ -99,5 +99,10 @@ public class HomeWork6 {
                 System.out.println("Revere the car.");
         }
 
+        num =46;
+       int num1 = 17;
+       int result =num%num1;
+        System.out.println(result);
+
     }
 }
