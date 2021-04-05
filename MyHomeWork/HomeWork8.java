@@ -29,14 +29,9 @@ public class HomeWork8 {
         System.out.println( "\nTask #2 - Find out if the value stored in word variable is palindrome." +
                 "\nThe word is:" + word);
         String[] wordArray = word.split("");
-        word = "";
         String wordReverse = "";
-
         for (int i = wordArray.length - 1; i >= 0; i--) {
             wordReverse = wordReverse + wordArray[i];
-        }
-        for (int i =0; i<wordArray.length; i++) {
-            word = word + wordArray[i];
         }
         boolean isPalindrome = wordReverse.equalsIgnoreCase(word);
         String resultOfPalindrome = (isPalindrome? "True": "False");
@@ -54,6 +49,7 @@ public class HomeWork8 {
          */
 
         int number = 23;
+
 
 
 
