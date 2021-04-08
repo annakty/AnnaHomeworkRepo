@@ -7,24 +7,28 @@ public class Printers_MainMethod {
         printer1.printerName = "0001SW-RD";
         printer1.printerSummary();
 
-        printer1.print(20);
+        printer1.print(10);
         printer1.printerSummary();
 
 
-        printer1.print(30, true);
+        printer1.print(10, true);
         printer1.printerSummary();
 
-
-        printer1.addPaper(30);
+        printer1.print(9, true);
         printer1.printerSummary();
 
-        printer1.addToner(100);
+        printer1.print(10);
         printer1.printerSummary();
 
-        printer1.print(2);
+        printer1.addToner(10);
         printer1.printerSummary();
 
-        printer1.print(100,true);
-        printer1.printerSummary();
+        printer1.addToner(30);
+
+        printer1.addToner(-10);
+
+
+
+
     }
 }

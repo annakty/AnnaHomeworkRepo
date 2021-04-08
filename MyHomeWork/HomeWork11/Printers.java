@@ -132,8 +132,8 @@ public class Printers {
         } else if (printPages / 2 < 0) {
             System.out.println("Invalid number of pages.");
 
-        } else if (printPages / 2 <= 0) {
-            paperLevel = paperLevel - printPages / 2;
+        } else if (printPages % 2 != 0) {
+            paperLevel = paperLevel - (printPages / 2+1);
             tonerLevel = tonerLevel - printPages;
         } else {
             paperLevel = paperLevel - printPages / 2;
